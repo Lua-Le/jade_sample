@@ -1,0 +1,175 @@
+block vars
+  -title="Home Page - asdf"
+extends layouts/layout
+block main
+  //- .main-heading
+  //-   ul.tabs-ctrl.pull-left
+  //-     li
+  //-       a(href="#").active Test info
+  //-     li
+  //-       a(href="#") manage tests
+  //-     li
+  //-       a(href="#") upload files
+  //-   .time-ctrl.pull-right
+  //-     button(type="button").btn.btn-warning 
+  //-       i.ico.ico-clock
+  //-       |schedule new test
+  //-     i.ico.ico-refresh
+  .row
+    .col-md-2.left-panel
+      ul.tasks-ctrl
+        li
+          a(href="#").active 
+            | tests in progress
+            span.count 6
+        li
+          a(href="#")
+            | paused tests
+            span.count 2
+        li
+          a(href="#")
+            | completed tests
+            span.count 30
+        li
+          a(href="#")
+            | error/aborted tests
+            span.count 1
+        li
+          a(href="#")
+            | upcoming tests
+            span.count 0
+        li
+          a(href="#")
+            | cancelled tests
+            span.count 5
+    .col-md-10.content-panel
+      table.task-post
+        thead
+          tr
+            th
+              | Service title
+              i.ico.ico-arrow-down-2.pull-right
+            th
+              | target
+            th
+              | Actual start date
+              i.ico.ico-arrow-down-2.pull-right
+            th
+              | status
+            th
+              | action
+        tbody
+          tr
+            td Mobile Application Test (One time)
+            td iOS App
+            td For start dates...
+            td Pausing
+            td.text-center
+              span.ico.ico-pause
+          tr
+            td 3D Service (Unlimited)
+            td Web test
+            td 2015-06-26 IST
+            td
+            td.text-center
+              span.ico.ico-upload
+          tr
+            td Testfire.com
+            td web tests
+            td for start dates...
+            td
+            td.text-center
+              span.ico.ico-upload
+          tr
+            td Mobile Application Test (One time)
+            td for scheduled target
+            td for start dates...
+            td
+            td.text-center
+              span.ico.ico-upload
+          tr
+            td 3D service (unlimited)
+            td iOS app
+            td for start dates...
+            td
+            td.text-center
+              span.ico.ico-upload
+          tr
+            td Testfire.com
+            td web tests
+            td for start dates...
+            td
+            td.text-center
+              span.ico.ico-upload
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //- tr
+          //-   td
+          //-   td
+          //-   td
+          //-   td
+          //-   td
